@@ -1,0 +1,8 @@
+- id: nb-clean
+  name: nb-clean
+  entry: 'nb-clean clean'
+  require_serial: true
+  language: python
+  language_version: python3
+  files: .*\.ipynb$
+  minimum_pre_commit_version: '2.9.2'
